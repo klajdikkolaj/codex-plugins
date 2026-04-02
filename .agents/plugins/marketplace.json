@@ -1,0 +1,20 @@
+{
+  "name": "klajdi-local-plugins",
+  "interface": {
+    "displayName": "Klajdi Local Plugins"
+  },
+  "plugins": [
+    {
+      "name": "upwork-autopilot",
+      "source": {
+        "source": "local",
+        "path": "./plugins/upwork-autopilot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

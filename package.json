@@ -1,0 +1,13 @@
+{
+  "name": "codex-plugins",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "create:plugin": "python3 ./scripts/create-plugin.py",
+    "list:plugins": "bash ./scripts/list-plugins.sh",
+    "export:plugin": "bash ./scripts/export-plugin.sh",
+    "sync:standalone": "bash ./scripts/sync-standalone-repo.sh",
+    "validate:upwork": "bash ./plugins/upwork-autopilot/scripts/validate.sh",
+    "validate": "bash ./scripts/validate-workspace.sh"
+  }
+}
